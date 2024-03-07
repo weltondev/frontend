@@ -1,0 +1,16 @@
+  body {
+    background-color: #fff;
+  }
+  .login {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+
+  i {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: .75rem;
+  }
