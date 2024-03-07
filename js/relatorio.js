@@ -28,7 +28,7 @@
       <td>${entrada.observacao}</td>
       <td>
           <a href="" class="btn btn-primary"><i class="bi bi-file-earmark-arrow-down"></i></a>
-          <a href="" class="btn btn-secondary"><i class="bi bi-pencil"></i></a>
+          <a href="editar.html?id=${entrada._id}&matricula=${entrada.matricula}" class="btn btn-secondary"><i class="bi bi-pencil"></i></a>
           <a href="apagar.html?matricula=${entrada.matricula}&id=${entrada._id}&data=${entrada.data}" class="btn btn-danger"><i class="bi bi-trash"></i></a>
           <a href="info.html?id=${entrada.matricula}" class="btn btn-outline-secondary"><i class="bi bi-three-dots-vertical"></i></a>
       </td>
