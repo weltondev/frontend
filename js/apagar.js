@@ -19,7 +19,9 @@
   voltar.addEventListener('click', (event)=>{
     event.preventDefault();
     window.location.href = `./relatorio.html`;
-  })
+  });
+
+  
   apagar.addEventListener('click', async (event)=>{
     try {
       event.preventDefault();
