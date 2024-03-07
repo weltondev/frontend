@@ -57,7 +57,7 @@ acessarbtn.addEventListener('click', async (event)=> {
   if(conteudo == 'Matrícula cadastrada com sucesso!'){
     logo.src='./img/bird.svg';
     alert('Registro realizado com sucesso!');
-    window.location.href = './relatorio.html';
+    window.location.href = './html/relatorio.html';
     return
   }
   
