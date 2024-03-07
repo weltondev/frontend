@@ -52,7 +52,7 @@
     }
     if(conteudo == 'Matrícula cadastrada com sucesso!'){
       alert(conteudo);
-      window.location.href = './index.html';
+      window.location.href = '../index.html';
     }
 
   
