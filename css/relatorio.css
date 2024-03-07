@@ -14,7 +14,3 @@
     font-size: 1.5rem;
     margin: .75rem;
   }
-
-  #tabela tr:hover {
-    background-color: red;
-  }
